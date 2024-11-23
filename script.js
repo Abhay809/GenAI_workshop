@@ -13,3 +13,4 @@ document.getElementById('revealFactButton').addEventListener('click', function()
     const randomIndex = Math.floor(Math.random() * facts.length);
     document.getElementById('funFact').textContent = facts[randomIndex];
 });
+
